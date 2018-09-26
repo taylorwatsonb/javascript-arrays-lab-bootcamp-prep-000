@@ -11,7 +11,7 @@ describe('Arrays', function() {
 
   describe('destructivelyAppendKitten(name)', function() {
     it('appends a kitten to the end of the kittens array', function() {
-      expect(test).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
+      expect(kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
     })
   })
 
